@@ -1,0 +1,1 @@
+include ':testapp', ':sorm_core', ':sorm_apt', ':sorm_annotation'

@@ -1,0 +1,5 @@
+#org.springsource.ide.eclipse.gradle.core.preferences.GradleProjectPreferences
+#Mon May 23 15:59:29 CST 2016
+build.family.org.gradle.tooling.model.eclipse.HierarchicalEclipseProject=;app;worm_annotation;worm_apt;worm_core;
+org.springsource.ide.eclipse.gradle.linkedresources=
+org.springsource.ide.eclipse.gradle.rootprojectloc=

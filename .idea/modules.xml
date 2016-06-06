@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sorm.iml" filepath="$PROJECT_DIR$/sorm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sorm_annotation/sorm_annotation.iml" filepath="$PROJECT_DIR$/sorm_annotation/sorm_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sorm_apt/sorm_apt.iml" filepath="$PROJECT_DIR$/sorm_apt/sorm_apt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sorm_core/sorm_core.iml" filepath="$PROJECT_DIR$/sorm_core/sorm_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testapp/testapp.iml" filepath="$PROJECT_DIR$/testapp/testapp.iml" />
+    </modules>
+  </component>
+</project>
