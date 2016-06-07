@@ -3,7 +3,6 @@
 buildscript {
     repositories {
         jcenter()
-        maven { url 'http://10.208.66.185:8080/artifactory/libs-release' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.0'
