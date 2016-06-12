@@ -1,0 +1,1 @@
+Android orm lib,支持sqliteDatabase和Content Provider，支持反射和生成代码两种方式

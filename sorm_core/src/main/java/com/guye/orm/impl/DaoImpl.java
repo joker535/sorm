@@ -19,6 +19,11 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 
+/**
+ * 
+ * @author nieyu
+ * dao实现类
+ */
 public class DaoImpl implements Dao{
 
 	protected Object ds;
