@@ -7,10 +7,7 @@ import java.lang.annotation.Target;
 
 /**
  * 声明一个字段为 Name
- * <p>
- * Name 字段，即字符型主键。如果你将这个注解声明在非 Charsequence 类型的字段上，会抛出异常
- * <p>
- * 属性 casesensitive 将指明，这个主键是否为大小写敏感
+ * Name 字段，即字符型主键。如果你将这个注解声明在非 String 类型的字段上，会抛出异常
  * 
  */
 @Retention(RetentionPolicy.RUNTIME)

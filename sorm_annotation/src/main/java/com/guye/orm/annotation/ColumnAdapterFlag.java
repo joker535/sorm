@@ -8,6 +8,7 @@ import java.lang.annotation.Target;
 
 /**
  * Created by nieyu on 16/5/19.
+ * 不要直接使用。自动生成代码时内部使用
  */
 @Retention(RetentionPolicy.CLASS)
 @Inherited

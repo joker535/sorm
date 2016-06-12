@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 /**
  * @author nieyu
- *
+ * 标示一个字段为一对多映射。一对多映射指当前表主键对应目标表中的某一字段。所以当前表必须包含一个long型或者字符型主键。不支持复合主键。
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.FIELD })
@@ -22,10 +22,5 @@ public @interface Many {
      * target类的关联属性名
      */
     String field();
-
-    /**
-     * 当前类的一个属性名,缺省情况下,按参考字段名{@link #field()}的类型选取@Id或者@Name等主键字段
-     */
-    String key() default "";
 
 }

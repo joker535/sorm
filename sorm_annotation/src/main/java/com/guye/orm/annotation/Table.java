@@ -13,7 +13,13 @@ import java.lang.annotation.Target;
 @Target({ElementType.TYPE})
 public @interface Table {
     
+    /**
+     * 表名，空则使用类名
+     */
     String value() default "";
 
+    /**
+     * 是否使用生成代码方式。true：生成代码方式，false：反射方式
+     */
     boolean genCode() default false;
 }
